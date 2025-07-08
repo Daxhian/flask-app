@@ -1,7 +1,7 @@
 # Use an official Python runtime as a parent image
 # FROM python:3.10.12
 
-# Emcountered Docker Hub Rate limit, I'm using use the Amazon ECR Public Python image
+# Emcountered Docker Hub Rate limit, so I decided to use the Amazon ECR Public Python image (I used Grok to debug the erro and got this solution)
 # This avoids Docker Hub rate limits entirely and requires no additional authentication setup. 
 FROM public.ecr.aws/docker/library/python:3.10
 
